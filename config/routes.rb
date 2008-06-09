@@ -4,7 +4,8 @@ ActionController::Routing::Routes.draw do |map|
   map.homepage '', :controller => 'front', :action => 'index'
 
   Hobo.add_routes(map)
-
+  Hobo.add_openid_routes(map)
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

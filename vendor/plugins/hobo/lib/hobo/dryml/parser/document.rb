@@ -23,7 +23,7 @@ module Hobo::Dryml::Parser
       build(rex_src)
       
     rescue REXML::ParseException => e
-      raise DrymlSyntaxError, "File: #{path}\n#{e}"
+      raise Hobo::Dryml::DrymlSyntaxError, "File: #{path}\n#{e}"
     end
     
     

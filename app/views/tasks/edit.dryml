@@ -1,0 +1,4 @@
+<edit-page>
+	<heading:>Task for <%= @this.project %></heading:>
+	<field-list: skip="position" skip-associations="has_many"/>
+</edit-page>

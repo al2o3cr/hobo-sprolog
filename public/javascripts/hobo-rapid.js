@@ -370,7 +370,7 @@ var Hobo = {
 
     parseFieldId: function(el) {
         id = el.getAttribute("hobo-model-id")
-        return id && parseId(id)
+        return id && Hobo.parseId(id)
     },
 
 
